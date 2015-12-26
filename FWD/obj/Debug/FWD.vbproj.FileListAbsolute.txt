@@ -1,0 +1,11 @@
+c:\users\jack\documents\visual studio 2013\Projects\FWD\bin\Debug\FWD.exe.config
+c:\users\jack\documents\visual studio 2013\Projects\FWD\bin\Debug\FWD.exe
+c:\users\jack\documents\visual studio 2013\Projects\FWD\bin\Debug\FWD.pdb
+c:\users\jack\documents\visual studio 2013\Projects\FWD\bin\Debug\FWD.xml
+c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.Form1.resources
+c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.Resources.resources
+c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.vbproj.GenerateResource.Cache
+c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.exe
+c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.xml
+c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.pdb
+C:\Users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.vbprojResolveAssemblyReference.cache
