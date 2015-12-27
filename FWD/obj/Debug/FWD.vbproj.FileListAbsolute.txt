@@ -9,3 +9,14 @@ c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.exe
 c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.xml
 c:\users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.pdb
 C:\Users\jack\documents\visual studio 2013\Projects\FWD\obj\Debug\FWD.vbprojResolveAssemblyReference.cache
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\bin\Debug\FWD.exe.config
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\obj\Debug\FWD.exe
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\obj\Debug\FWD.xml
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\obj\Debug\FWD.pdb
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\bin\Debug\FWD.exe
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\bin\Debug\FWD.pdb
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\bin\Debug\FWD.xml
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\obj\Debug\FWD.vbprojResolveAssemblyReference.cache
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\obj\Debug\FWD.Form1.resources
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\obj\Debug\FWD.Resources.resources
+C:\Users\jack\Documents\GitHub\FileMonitor\FWD\obj\Debug\FWD.vbproj.GenerateResource.Cache
