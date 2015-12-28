@@ -2,10 +2,10 @@
 Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        TreeView1.Nodes.Add(New TreeNode("Created"))
-        TreeView1.Nodes.Add(New TreeNode("Deleted"))
-        TreeView1.Nodes.Add(New TreeNode("Edited"))
-        TreeView1.Nodes.Add(New TreeNode("Renamed"))
+        TreeView1.Nodes.Add(("Created"))
+        TreeView1.Nodes.Add(("Deleted"))
+        TreeView1.Nodes.Add(("Edited"))
+        TreeView1.Nodes.Add(("Renamed"))
     End Sub
 
 
@@ -34,55 +34,15 @@ Public Class Form1
     End Sub
 
     Private Sub ToolStripButton6_Click(sender As Object, e As EventArgs) Handles ToolStripButton6.Click
-        Dim Report As String
-        Dim ListBox1 As New ListBox
-        ListBox1.Items.Add("===Created===")
-        Try
-            For i As Integer = 0 To TreeView1.Nodes(0).Nodes.Count - 1
-                ListBox1.Items.Add(TreeView1.Nodes(0).Nodes(i).Text)
-            Next
-            ListBox1.Items.Add("===Deleted===")
-        Catch ex As Exception
-
-        End Try
-        Try
-            For i As Integer = 0 To TreeView1.Nodes(1).Nodes.Count - 1
-                ListBox1.Items.Add(TreeView1.Nodes(1).Nodes(i).Text)
-
-            Next
-            ListBox1.Items.Add("===Edited===")
-        Catch ex As Exception
-
-        End Try
-        Try
-            For i As Integer = 0 To TreeView1.Nodes(2).Nodes.Count - 1
-                ListBox1.Items.Add(TreeView1.Nodes(2).Nodes(i).Text)
-            Next
-            ListBox1.Items.Add("===Renamed===")
-        Catch ex As Exception
-
-        End Try
-        Try
-            For i As Integer = 0 To TreeView1.Nodes(3).Nodes.Count - 1
-                ListBox1.Items.Add(TreeView1.Nodes(3).Nodes(i).Text)
-            Next
-            ListBox1.Items.Add("===End===")
-        Catch ex As Exception
-
-        End Try
-        Try
-            For i As Integer = 0 To ListBox1.Items.Count - 1
-                Dim ItemList As String = CStr(ListBox1.Items(i))
+        For Root = 0 To TreeView1.Nodes.Count - 1
+            For Child = 0 To TreeView1.Nodes(Root).Nodes.Count - 1
                 Dim Ior As IO.StreamWriter
                 Ior = My.Computer.FileSystem.OpenTextFileWriter(Application.StartupPath + "\Report.txt", True)
-                Ior.WriteLine(ItemList)
+                Ior.WriteLine(TreeView1.Nodes(Root).Text + ": " + TreeView1.Nodes(Root).Nodes(Child).Text)
                 Ior.Close()
                 Ior.Dispose()
             Next
-        Catch ex As Exception
-
-        End Try
-        MsgBox("done!")
+        Next
     End Sub
 
     '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -117,10 +77,10 @@ Public Class Form1
     End Sub
     Private Sub ToolStripButton5_Click(sender As Object, e As EventArgs) Handles ToolStripButton5.Click
         TreeView1.Nodes.Clear()
-        TreeView1.Nodes.Add(New TreeNode("Created"))
-        TreeView1.Nodes.Add(New TreeNode("Deleted"))
-        TreeView1.Nodes.Add(New TreeNode("Edited"))
-        TreeView1.Nodes.Add(New TreeNode("Renamed"))
+        TreeView1.Nodes.Add(("Created"))
+        TreeView1.Nodes.Add(("Deleted"))
+        TreeView1.Nodes.Add(("Edited"))
+        TreeView1.Nodes.Add(("Renamed"))
     End Sub
 
     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

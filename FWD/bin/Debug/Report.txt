@@ -1,11 +1,5 @@
-﻿===Created===
-C:\Users\jack\Desktop\New Text Document (3).txt
-===Deleted===
-C:\Users\jack\Desktop\Deleted.txt
-===Edited===
-C:\Users\jack\Desktop\Renamed.txt
-C:\Users\jack\Desktop\Renamed.txt
-===Renamed===
-C:\Users\jack\Desktop\Renamed.txt
-C:\Users\jack\Desktop\Deleted.txt
-===End===
+﻿Created: C:\Users\jack\Desktop\New Text Document.txt
+Deleted: C:\Users\jack\Desktop\New.txt
+Edited: C:\Users\jack\Desktop\New.txt
+Edited: C:\Users\jack\Desktop\New.txt
+Renamed: C:\Users\jack\Desktop\New.txt
